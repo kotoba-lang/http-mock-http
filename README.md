@@ -2,4 +2,4 @@
 
 `kotoba.http.mock-http/mock-http`
 
-One definition. Reaches kotoba.http.ihttp.
+One definition. Reaches kotoba.http.http.

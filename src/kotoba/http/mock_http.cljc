@@ -5,12 +5,12 @@
   here is the DEFINITION, and this repo's deps.edn names exactly the
   definitions it reaches -- nothing else.
 "
-  (:require [kotoba.http.ihttp :refer [IHttp send]])
+  (:require [kotoba.http.http :refer [Http send]])
 )
 
 (defn mock-http
-  "An IHttp whose `send` routes each request through `handler` (fn of req →
+  "An Http whose `send` routes each request through `handler` (fn of req →
   response). For tests / OSS standalone."
   [handler]
-  (reify IHttp
+  (reify Http
     (send [_ req] (handler req))))

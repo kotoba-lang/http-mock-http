@@ -1,8 +1,8 @@
 {:paths ["src"]
  :deps {
-        io.github.kotoba-lang/http-ihttp
-        {:git/url "https://github.com/kotoba-lang/http-ihttp.git"
-         :git/sha "47b9b4a7b1072f040626f938c6e6353424863f7c"}}
+        io.github.kotoba-lang/http-http
+        {:git/url "https://github.com/kotoba-lang/http-http.git"
+         :git/sha "f7495072017e9c7f04576bd6233f3bd39005688e"}}
  :aliases
  {:test {:extra-paths ["test"]
          :extra-deps {io.github.cognitect-labs/test-runner
